@@ -1,0 +1,4 @@
+tests["validating status code"]=response.code == 200;
+tests["validating status code"]=responsebody.has("2");
+var resp=JSON.parse(responseBody);
+tests["page no"]=resp.page==2;z
